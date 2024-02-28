@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Clearing and Shipping Services</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5; /* Change this to your preferred background color or image */
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: navy; /* Change to navy blue */
+            color: white;
+            font-weight: bold; /* Make the text bold */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            border: 1px solid darkblue; /* Change to dark blue */
+            border-radius: 10px; /* Add rounded corners */
+            margin-bottom: 20px; /* Add space between sections */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 400px; /* Adjust the height as needed */
+            object-fit: cover;
+        }
+        .contact-box {
+            background-color: navy; /* Box background color */
+            padding: 20px;
+            color: white;
+            border-radius: 10px; /* Add rounded corners */
+            margin-bottom: 20px; /* Add space between sections */
+        }
+        .our-services-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .our-services-images img {
+            width: 200px; /* Adjust the width as needed for three images in a row */
+            height: 200px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .our-services-images img:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 8px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            display: none;
+        }
+        .our-services-images img:hover::after {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Global Clearing and Shipping Services</h1>
+    </header>
+
+    <nav>
+        
+        <a href="#aim">Our Aim</a>
+        <a href="#services">Our Services </a>
+        <a href="#whyus">Why Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="ship_image.jpg" alt="Ship Image">
+            </div>
+            <div class="carousel-item">
+                <img src="container_image.jpg" alt="Container Image">
+            </div>
+            <div class="carousel-item">
+                <img src="shipyard_image.jpg" alt="Shipyard Image">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section id="aim">
+        <h2> <b> Our Aim </b></h2>
+        <p>Our aim is to optimize our customers' potential by providing an edge from our services and rich experience in the field of clearing and forwarding. We work with our customers at all times to ensure their success.</p>
+    </section>
+
+    <section id="services">
+        <h2> <b> Our Services </b> </h2>
+        <div class="our-services-images">
+            <img src="image1.jpg" alt="Image 1" data-tooltip="Tooltip message for Image 1">
+            <img src="image2.jpg" alt="Image 2" data-tooltip="Tooltip message for Image 2">
+            <img src="image3.jpg" alt="Image 3" data-tooltip="Tooltip message for Image 3">
+            <img src="image4.jpg" alt="Image 4" data-tooltip="Tooltip message for Image 4">
+            <img src="image5.jpg" alt="Image 5" data-tooltip="Tooltip message for Image 5">
+            <img src="image6.jpg" alt="Image 6" data-tooltip="Tooltip message for Image 6">
+We are a distinguished organization, which is engaged in providing services for Shipping & Logistics Services. Our wide array of services includes Custom House Agent, Logistics, Custom Clearing Services and International Freight Forwarding. Apart from these, we also offer Shipping Services, Transportation, Warehousing and Project Shipments. Customers from different parts of the nation appreciate our services for their reliability, effectiveness and timely execution. 
+
+<br>The salient features of our services are: </br>
+<ul>
+ <li>  Proper execution of the effective measures </li> 
+
+<li>  Cost-effective </li> 
+
+<li>  Safe delivery of consignments </li>
+
+</ul>
+        </div>
+    </section>
+
+    <section id="whyus">
+        <h2> <b> Why Us </b> </h2>
+        <ul>
+            <li>In-depth knowledge of custom tariff, act & procedures</li>
+            <li>Strong logistics support</li>
+            <li>Adroit team of professionals</li>
+            <li>Competitive rates</li>
+            <li>Timely execution</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <div class="contact-box">
+            <h2> <b> Contact Us </b> </h2>
+            <p>Address: Room No. 53, Bindra Complex, C-145/A, Phase v, Focal Point, Ludhiana-141010- Punjab</p>
+            <p>Phones: +91-161-5046506, 5646507</p>
+            <p>Mobile: 9814000522</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Global Clearing and Shipping Services
+    </footer>
+
+</body>
+</html>
